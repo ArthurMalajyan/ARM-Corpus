@@ -13,8 +13,8 @@
 
 |Train|Paraphraser.ru test_data|Our test_data|Paraphraser.ru + Our test_data|
 |  :---: |     :---:    | :---:  |          :---:          |
-|        | F1  /  Acc      |  F1  /  Acc    |     F1  /  Acc  |
-|Paraphraser.ru   |87.9  /  84.9        |80.13  /  71.05    |77  /  69.11             |
+|        | F1    /    Acc      |  F1  /  Acc    |     F1  /  Acc  |
+|Paraphraser.ru   |87.9    /    84.9        |80.13  /  71.05    |77  /  69.11             |
 |Our data    | 77  /  66         |80.39  /  70.03    |74.96  /  66.9    |
 |Paraphraser.ru + Our data   | 87.96  /  85.2         |76.74  /  68.79    |73.29  /  66.36   |
 
