@@ -41,7 +41,7 @@ Here are described Russian and Armenian paraphrases detection 2 models, Rus_bert
 | BERT(սովորացված MRPC -ի վրա) և փորցարկված անգլերեն թարկմանված մեր  test -ի վրա   | 83.24  |  88.47     |
 |Մեր train -ը փորձարկված մեր test -ի վրա  | 83.8    |  89.06   |
 
-
+Փորձարկումների արդյունքում ստացվեց Arm_bert ը որը ցույց տվեց state-of-the-art արդյունք
 
 
 
