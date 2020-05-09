@@ -10,14 +10,14 @@ Arm_bert, obtained by fine-tuning [Google resarch's](https://github.com/google-r
 
 
 ## Rus_bert
-Ստեղծվել է նոր կորպուս Ռուսերենում պարաֆրազի հայտնաբերման համար։ Որից հետո տվյալները ավելացվել են ռուսերենի հիմնական  կորպուսին պարաֆրազը հայտնաբերելու համար՝ [Paraphraser.ru](http://paraphraser.ru/)-ին։
+Created new Corpus for Russian paraphrase detection. After that, the data was added  to [Paraphraser.ru](http://paraphraser.ru/) (the main Russian corpus of paraphrase detection).
 
 |Cotpusis|Paraphraser.ru|Our data|Paraphraser.ru + Our data|
 |  :---: |     :---:    | :---:  |          :---:          |
 |Train   | 7202         |9364    |13609                    |
 |Test    | 1899         |1855    |1899                     |
 
-Որոշ կորպուսներում հեռացվել են բոլոր կետադրական նշանները հասկանալու համար, թե որքանով են ազդում կետադրական նշանները մոդելի աշխատանքի վրա։Ստեղծված կորպուսները օգտագործելով կատարվել է նուրբ կարգավորում RUBERT-ի վրա։ Ստացվել են հետևյալ արդյունքները՝
+In some cases, all punctuation marks have been removed to understand how punctuation affects the work of the model.Using the created corpuses, was made fine tuning on the RUBERT.
 
 |Train|Paraphraser.ru test_data|Our test_data|Paraphraser.ru + Our test_data|
 |  :---: |     :---:    | :---:  |          :---:          |
@@ -28,9 +28,9 @@ Arm_bert, obtained by fine-tuning [Google resarch's](https://github.com/google-r
 
 
 ## Arm_bert
-Հայերեն նախադասություններում պարաֆրազի հայտնաբերման մոդել որը ցույց է տվել state-of-the-art արդյունք։
+Paraphrase detection model for Armenian sentences which showed state-of-the-art result.
 
-Հայերենի համար ստեղծվել է մինչև այժմ գոյություն չունեցող պարաֆրազի հայտնաբերման կորպուս։ Վերցվել են Հետք և Պանարմենիա լրագրողական կայքերի վերջին 10 տարվա հոդվածները։ Սկզբնական քայլում պարաֆրազ նախադասությունների զույգերը ստացվել են վերցված հոդվածների նախադասությունների իրար հետ համեմատության արդյունքում։ Վերցվել են այն նախադասությունները՝ որոնց overlap coefficient>=0.5 և levenshtein distance<=50 ից։ Ստացված նախադասություններում քիչ էին պարաֆրազ նախադասությունների բառերի տարբերությունները և հիմնականում նույն բառերն էին օգտագործված։ Այդ իսկ պատճառով վերցված հոդվածների նախադասությունները թարգմանվեցին Անգլերեն,ապա ստացված անգլերեն նախադասությունները նորից թարգմանվեցին Հայերեն։ Թարգմանված նախադասությունները համեմատելով օրիգինալ նախադասությունների հետ նկատվեց, որ նախադասությունների մեծ մասը պարաֆրազ էր։Ավելի լավ արդյունք ստանալու համար թարգմանված նախադասությունների զույգերը տրվեցին լեղվաբաններին , ովքեր կատարեցին նշումներ և ստացվեցին հետևյալ աորդյունքները․
+For Armenian has been created paraphrase Detection Corpus, which did not exist before․ Were taken Hetq and Panarmenian news websites articles from the last 10 years. In the initial step, the pairs of paraphrase sentences were obtained by comparing the sentences of the taken articles with each other. As a result were selected, the sentences whose overlap coefficient> = 0.5  and levenshtein distance <= 50. In the obtained sentences were few differences between the words in the paraphrase sentences, mostly the same words were used. Այդ իսկ պատճառով վերցված հոդվածների նախադասությունները թարգմանվեցին Անգլերեն,ապա ստացված անգլերեն նախադասությունները նորից թարգմանվեցին Հայերեն։ Թարգմանված նախադասությունները համեմատելով օրիգինալ նախադասությունների հետ նկատվեց, որ նախադասությունների մեծ մասը պարաֆրազ էր։Ավելի լավ արդյունք ստանալու համար թարգմանված նախադասությունների զույգերը տրվեցին լեղվաբաններին , ովքեր կատարեցին նշումներ և ստացվեցին հետևյալ աորդյունքները․
 
 |number of examples|all|strict paraphrases|loose paraphrases|non-paraphrases|
 |  :---: |     :---:    | :---:  |          :---:          | :---:  |
