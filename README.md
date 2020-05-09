@@ -11,7 +11,7 @@ It was created a new corpus for Russian paraphrase detection task, based on [KIE
 |Train   | 7202         |9364    |13609                    |
 |Test    | 1899         |1855    |1899                     |
 
-In some cases, all punctuation marks have been removed to understand how punctuation affects the efficiency of the model. Using the created corpuses, fine-tuning was made fine-tuning.
+In some cases, all punctuation marks have been removed to understand how punctuation affects the efficiency of the model. Using the created corpuses, fine-tuning was made.
 
 |Train|Paraphraser.ru test | Our test | Our test without punctuation|
 |  :---: |     :---:    | :---:  |          :---:          |
