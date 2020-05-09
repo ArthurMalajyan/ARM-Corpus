@@ -3,6 +3,7 @@
 Here are described Russian and Armenian paraphrases detection 2 models Rus_bert and Arm_bert. Which, accordingly, obtained by fine-tuning [Deeppavlov's](http://deeppavlov.ai/) [RUBERT](http://docs.deeppavlov.ai/en/master/features/models/bert.html) and [Google resarch's](https://github.com/google-research/bert?fbclid=IwAR2GSNQ7pwjglLqVGOB5PTxlMQ5SgWQZl4x5ZMlda5zArwxo4pp2Z6rp43g) [multilingual BERT](https://github.com/google-research/bert?fbclid=IwAR2GSNQ7pwjglLqVGOB5PTxlMQ5SgWQZl4x5ZMlda5zArwxo4pp2Z6rp43g)  
 
 Here are described paraphrases detection 2 models:
+
 Rus_bert, obtained by fine-tuning [Deeppavlov's](http://deeppavlov.ai/) [RUBERT](http://docs.deeppavlov.ai/en/master/features/models/bert.html) 
 Arm_bert, obtained by fine-tuning [Google resarch's](https://github.com/google-research/bert?fbclid=IwAR2GSNQ7pwjglLqVGOB5PTxlMQ5SgWQZl4x5ZMlda5zArwxo4pp2Z6rp43g) [multilingual BERT](https://github.com/google-research/bert?fbclid=IwAR2GSNQ7pwjglLqVGOB5PTxlMQ5SgWQZl4x5ZMlda5zArwxo4pp2Z6rp43g) 
 
