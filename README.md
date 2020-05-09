@@ -1,6 +1,10 @@
 # Paraphrase-detection
 
-Here are described Russian and Armenian paraphrases detection 2 models, Rus_bert and Arm_bert: Որոնք համապատասխանաբար ստացվել են [Deeppavlov](http://deeppavlov.ai/) կողմից ստեղծված [RUBERT](http://docs.deeppavlov.ai/en/master/features/models/bert.html)-ի և [Google resarch](https://github.com/google-research/bert?fbclid=IwAR2GSNQ7pwjglLqVGOB5PTxlMQ5SgWQZl4x5ZMlda5zArwxo4pp2Z6rp43g) - կողմից ստեղծված [multilingual BERT](https://github.com/google-research/bert?fbclid=IwAR2GSNQ7pwjglLqVGOB5PTxlMQ5SgWQZl4x5ZMlda5zArwxo4pp2Z6rp43g) ի վրա նուրբ կարգավորման արդյունքում։ 
+Here are described Russian and Armenian paraphrases detection 2 models Rus_bert and Arm_bert. Which, accordingly, obtained by fine-tuning [Deeppavlov's](http://deeppavlov.ai/) [RUBERT](http://docs.deeppavlov.ai/en/master/features/models/bert.html) and [Google resarch's](https://github.com/google-research/bert?fbclid=IwAR2GSNQ7pwjglLqVGOB5PTxlMQ5SgWQZl4x5ZMlda5zArwxo4pp2Z6rp43g) [multilingual BERT](https://github.com/google-research/bert?fbclid=IwAR2GSNQ7pwjglLqVGOB5PTxlMQ5SgWQZl4x5ZMlda5zArwxo4pp2Z6rp43g)  
+
+Here are described paraphrases detection 2 models:
+Rus_bert, obtained by fine-tuning [Deeppavlov's](http://deeppavlov.ai/) [RUBERT](http://docs.deeppavlov.ai/en/master/features/models/bert.html) 
+Arm_bert, obtained by fine-tuning [Google resarch's](https://github.com/google-research/bert?fbclid=IwAR2GSNQ7pwjglLqVGOB5PTxlMQ5SgWQZl4x5ZMlda5zArwxo4pp2Z6rp43g) [multilingual BERT](https://github.com/google-research/bert?fbclid=IwAR2GSNQ7pwjglLqVGOB5PTxlMQ5SgWQZl4x5ZMlda5zArwxo4pp2Z6rp43g) 
 
 
 ## Rus_bert
@@ -22,6 +26,7 @@ Here are described Russian and Armenian paraphrases detection 2 models, Rus_bert
 
 
 ## Arm_bert
+Հայերեն նախադասություններում պարաֆրազի հայտնաբերման մոդել որը ցույց է տվել state-of-the-art արդյունք։
 
 Հայերենի համար ստեղծվել է մինչև այժմ գոյություն չունեցող պարաֆրազի հայտնաբերման կորպուս։ Վերցվել են Հետք և Պանարմենիա լրագրողական կայքերի վերջին 10 տարվա հոդվածները։ Սկզբնական քայլում պարաֆրազ նախադասությունների զույգերը ստացվել են վերցված հոդվածների նախադասությունների իրար հետ համեմատության արդյունքում։ Վերցվել են այն նախադասությունները՝ որոնց overlap coefficient>=0.5 և levenshtein distance<=50 ից։ Ստացված նախադասություններում քիչ էին պարաֆրազ նախադասությունների բառերի տարբերությունները և հիմնականում նույն բառերն էին օգտագործված։ Այդ իսկ պատճառով վերցված հոդվածների նախադասությունները թարգմանվեցին Անգլերեն,ապա ստացված անգլերեն նախադասությունները նորից թարգմանվեցին Հայերեն։ Թարգմանված նախադասությունները համեմատելով օրիգինալ նախադասությունների հետ նկատվեց, որ նախադասությունների մեծ մասը պարաֆրազ էր։Ավելի լավ արդյունք ստանալու համար թարգմանված նախադասությունների զույգերը տրվեցին լեղվաբաններին , ովքեր կատարեցին նշումներ և ստացվեցին հետևյալ աորդյունքները․
 
@@ -41,7 +46,6 @@ Here are described Russian and Armenian paraphrases detection 2 models, Rus_bert
 | BERT(սովորացված MRPC -ի վրա) և փորցարկված անգլերեն թարկմանված մեր  test -ի վրա   | 83.24  |  88.47     |
 |Մեր train -ը փորձարկված մեր test -ի վրա  | 83.8    |  89.06   |
 
-Փորձարկումների արդյունքում ստացվեց Arm_bert ը որը ցույց տվեց state-of-the-art արդյունք
 
 
 
