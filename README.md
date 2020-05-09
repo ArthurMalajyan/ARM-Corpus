@@ -25,8 +25,10 @@ In some cases, all punctuation marks have been removed to understand how punctua
 Armenian paraphrase detection model is a new paraphrase detection model for Armenian sentences which obtains state-of-the-art result.
 
 For Armenian has been created paraphrase Detection Corpus, which did not exist before․ Were taken Hetq and Panarmenian news websites articles from the last 10 years. In the initial step, the pairs of paraphrase sentences were obtained by comparing the sentences of the taken articles with each other. As a result were selected, the sentences whose
-1. Overlap coefficient [[>= 0.5]]
-levenshtein distance <= 50. 
+1. Overlap coefficient >= 0.5
+2.levenshtein distance <= 50
+3.The number of words in a sentence is greater than 6 and less than 22
+
 In the obtained sentences were few differences between the words in the paraphrase sentences, mostly the same words were used. Այդ իսկ պատճառով վերցված հոդվածների նախադասությունները թարգմանվեցին Անգլերեն,ապա ստացված անգլերեն նախադասությունները նորից թարգմանվեցին Հայերեն։ Թարգմանված նախադասությունները համեմատելով օրիգինալ նախադասությունների հետ նկատվեց, որ նախադասությունների մեծ մասը պարաֆրազ էր։Ավելի լավ արդյունք ստանալու համար թարգմանված նախադասությունների զույգերը տրվեցին լեղվաբաններին , ովքեր կատարեցին նշումներ և ստացվեցին հետևյալ աորդյունքները․
 
 |number of examples|all|strict paraphrases|loose paraphrases|non-paraphrases|
