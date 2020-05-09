@@ -30,15 +30,14 @@ For Armenian has been created paraphrase Detection Corpus, which did not exist b
 2. levenshtein distance <= 50.
 3. The number of words in a sentence is greater than 6 and less than 22.
 
-In the obtained sentences were few differences between the words in the paraphrase sentences, mostly the same words were used. Այդ իսկ պատճառով վերցված հոդվածների նախադասությունները թարգմանվեցին Անգլերեն,ապա ստացված անգլերեն նախադասությունները նորից թարգմանվեցին Հայերեն։ Թարգմանված նախադասությունները համեմատելով օրիգինալ նախադասությունների հետ նկատվեց, որ նախադասությունների մեծ մասը պարաֆրազ էր։Ավելի լավ արդյունք ստանալու համար թարգմանված նախադասությունների զույգերը տրվեցին լեղվաբաններին , ովքեր կատարեցին նշումներ և ստացվեցին հետևյալ աորդյունքները․
+in the next step the sentences of the taken articles were translated into English by google-translate and then the English sentences  were translated into Armenian again. After which the sentences were labeled by linguists
 
 |number of examples|all|strict paraphrases|loose paraphrases|non-paraphrases|
 |  :---: |     :---:    | :---:  |          :---:          | :---:  |
 |Train   | 4233         |1339   |2683               | 211 |
 |Test    | 2325         |709   |1521                  | 95 |
 
-
-Ստեղծված test-ը թարգմանվել է անգլերեն և ռուսերեն ՝ փորձելու համար, թե ինչ արդյունքներ կստացվեն Paraphraser.ru Train-ի և [MRPC](https://www.microsoft.com/en-us/download/details.aspx?id=52398) Train-ի վրա։ Նաև Paraphraser.ru Train-ը և MRPC Train-ը թարգմանվել են հայերեն ,յուրաքանչյուրի համար կատարվել է նուրբ կարգավորում multilingual BERT-ի վրա։ 
+The created test was translated into Russian and English to test the results on Paraphraser.ru Train and [MRPC](https://www.microsoft.com/en-us/download/details.aspx?id=52398) Train. Also Paraphraser.ru Train և MRPC Train translated into Armenian.
 
 |Models Results|   F1   |  Acc.     |
 |  :---: |     :---:    |     :---:    |
