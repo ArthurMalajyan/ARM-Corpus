@@ -30,7 +30,7 @@ For Armenian has been created paraphrase Detection Corpus, which did not exist b
 2. levenshtein distance <= 50.
 3. The number of words in a sentence is greater than 6 and less than 22.
 
-in the next step the sentences of the taken articles were translated into English by google-translate and then the English sentences  were translated into Armenian again. After which the sentences were labeled by linguists
+In the next step the sentences of the taken articles were translated into English by google-translate and then the English sentences  were translated into Armenian again. After which the sentences were labeled by linguists.
 
 |number of examples|all|strict paraphrases|loose paraphrases|non-paraphrases|
 |  :---: |     :---:    | :---:  |          :---:          | :---:  |
