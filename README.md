@@ -42,11 +42,11 @@ In the obtained sentences were few differences between the words in the paraphra
 
 |Models Results|   F1   |  Acc.     |
 |  :---: |     :---:    |     :---:    |
-|multilingual BERT - ը սովորացված Paraphraser.ru Train -ի Հայերեն թարգմանված տվյալներով և ստուգված մեր test -ի վրա  | 78.98  |  84.32  |
-|multilingual BERT - ը սովորացված MRPC Train -ի Հայերեն թարգմանված տվյալներով և ստուգված մեր test -ի վրա   | 46.8        | 30.55 |
-|RUBERT-ը փորցարկված ռուսերեն թարկմանված մեր  test -ի վրա    | 68.34         | 73.59  |
-| BERT(սովորացված MRPC -ի վրա) և փորցարկված անգլերեն թարկմանված մեր  test -ի վրա   | 83.24  |  88.47     |
-|Մեր train -ը փորձարկված մեր test -ի վրա  | 83.8    |  89.06   |
+|multilingual BERT trained on Paraphraser.ru Train data transleted into Armenian and tested on our test data | 78.98  | 84.32  |
+|multilingual BERT trained on MRPC Train data transleted into Armenian and tested on our test data   | 46.8        | 30.55 |
+|RUBERT tested on our test data translated into Russian| 68.34         | 73.59  |
+|BERT trained on MRPC Train data and tested on our test data translated into English | 83.24  |  88.47     |
+|multilingual BERT trained on our Train data and tested on our test data| 83.8    |  89.06   |
 
 
 
