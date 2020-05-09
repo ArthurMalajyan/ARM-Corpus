@@ -4,7 +4,7 @@ Here are described Russian and Armenian paraphrases detection 2 models. Which, a
 
 
 ## Russian paraphrase detection model
-Created new Corpus for Russian paraphrase detection. After that, the data was added  to [Paraphraser.ru](http://paraphraser.ru/) (the main Russian corpus of paraphrase detection).
+Was created new Corpus for Russian paraphrase detection. After that, the data was added  to [Paraphraser.ru](http://paraphraser.ru/) (the main Russian corpus of paraphrase detection).
 
 |Corpuses|Paraphraser.ru|Our data|Paraphraser.ru + Our data|
 |  :---: |     :---:    | :---:  |          :---:          |
