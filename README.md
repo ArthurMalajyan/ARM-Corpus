@@ -32,7 +32,7 @@ To train a model for Armenian language it was created paraphrase detection corpu
 
 At the next step the selected sentences were translated from Armenian to English and vise versa. After which the obtained sentences pairs were labeled by linguists.
 
-|number of examples|all|strict paraphrases|loose paraphrases|non-paraphrases|
+|number of examples|all|strict paraphrases|non-paraphrases|loose paraphrases|
 |  :---: |     :---:    | :---:  |          :---:          | :---:  |
 |Train   | 4233         |1339   |2683               | 211 |
 |Test    | 2325         |709   |1521                  | 95 |
@@ -42,7 +42,7 @@ The created test set was translated to Russian and English to test the results o
 |Models Results|   F1   |  Acc.     |
 |  :---: |     :---:    |     :---:    |
 |multilingual BERT trained on Paraphraser.ru Train data transleted into Armenian and tested on our test data | 78.98  | 84.32  |
-|multilingual BERT trained on MRPC Train data transleted into Armenian and tested on our test data   | 46.8        | 30.55 |
+|multilingual BERT trained on MRPC Train data transleted into Armenian and tested on our test data   | 46.8        | 33.55 |
 |RUBERT tested on our test data translated into Russian| 68.34         | 73.59  |
 |BERT trained on MRPC Train data and tested on our test data translated into English | 83.24  |  88.47     |
 |multilingual BERT trained on our Train data and tested on our test data| 83.8    |  89.06   |
