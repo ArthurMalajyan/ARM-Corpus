@@ -45,7 +45,7 @@ The created test set was translated to Russian and English to test the results o
 |multilingual BERT trained on MRPC Train data transleted into Armenian and tested on our test data   | 46.8        | 33.55 |
 |RUBERT tested on our test data translated into Russian| 68.34         | 73.59  |
 |BERT trained on MRPC Train data and tested on our test data translated into English | 83.24  |  88.47     |
-|multilingual BERT trained on our Train data and tested on our test data| 83.8    |  89.06   |
+|multilingual BERT trained on our Train data and tested on our test data| 85.92    |  90.09   |
 
 
 
