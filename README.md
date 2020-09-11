@@ -48,7 +48,7 @@ The created test set was translated to Russian and English to test the results o
 |BERT trained on MRPC Train data and tested on our test data translated into English | 77.96  |  65.69     | 
 |multilingual BERT trained on our Train data and tested on our test data (ARPA)| 83.05|  76.63|
 
-[ARPA model is available for use, and can be downloaded from this Drive.](https://drive.google.com/uc?id=1e6Lsgti16KQA1O2F82bwvh5Lqq-Ku6oW)
+[ARPA model is available for use, and can be downloaded from this Drive.](https://drive.google.com/uc?id=14owW5kkZ1JiNa6P-676e-QIj8m8i5e_8)
 
 
 
