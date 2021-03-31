@@ -22,6 +22,7 @@ In some cases, all punctuation marks have been removed to understand how punctua
 
 
 ## Armenian paraphrase detection model
+
 We provide a paraphrase detection model for Armenian sentences which obtains state-of-the-art result.
 
 To train a model for Armenian language it was created paraphrase detection corpus, which did not exist before․ To create the dataset [Hetq](https://hetq.am/) and [Panarmenian](http://www.panarmenian.net/) news websites articles from the last 10 years were taken. In the initial step, the pairs of paraphrase sentences were obtained by comparing the sentences of the taken articles with each other and were selected, the sentences whose:
@@ -34,20 +35,21 @@ At the next step the selected sentences were translated from Armenian to English
 
 |number of examples|all|strict paraphrases|non-paraphrases|loose paraphrases|
 |  :---: |     :---:    | :---:  |          :---:          | :---:  |
-|Train   | 4233         |1339   |2684               | 210 |
-|Test    | 2325         |709   |1521                  | 95 |
+|Train   | 4233         |1339   |2683               | 211 |
+|Test    | 1682         |1021   |448                  | 213 |
 
 The created test set was translated to Russian and English to test the results on Paraphraser.ru Train and [MRPC](https://www.microsoft.com/en-us/download/details.aspx?id=52398) Train. Also Paraphraser.ru and MRPC train sets were translated into Armenian.
 
 |Models Results|   F1   |  Acc.     |
 |  :---: |     :---:    |     :---:    |
-|multilingual BERT trained on Paraphraser.ru Train data transleted into Armenian and tested on our test data | 78.98  | 84.32  | 
-|multilingual BERT trained on MRPC Train data transleted into Armenian and tested on our test data   | 46.8        | 33.55 | 
-|RUBERT tested on our test data translated into Russian| 63.34         | 73.59  | 
-|BERT trained on MRPC Train data and tested on our test data translated into English | 83.24  |  88.47     | 
-|multilingual BERT trained on our Train data and tested on our test data| 85.92|  90.09|
+|multilingual BERT trained on Paraphraser.ru Train data transleted into Armenian and tested on our test data | 83.81  | 77.09  | 
+|multilingual BERT trained on MRPC Train data transleted into Armenian and tested on our test data   | 80.07        | 69.87 | 
+|multilingual BERT trained on translated MRPC, Paraphraser.ru, and our Train data and tested on our test data | 84 |77.6  |
+|RUBERT tested on our test data translated into Russian| 83.73         | 76.45  | 
+|BERT trained on MRPC Train data and tested on our test data translated into English | 77.96  |  65.69     | 
+|multilingual BERT trained on our Train data and tested on our test data (ARPA)| 84.27|  78.06|
 
-The last model is available for use and can be downloaded from this [Drive.](https://drive.google.com/uc?id=14owW5kkZ1JiNa6P-676e-QIj8m8i5e_8)
+The last model is available for use, and can be downloaded from this [Drive.](https://drive.google.com/uc?id=14owW5kkZ1JiNa6P-676e-QIj8m8i5e_8)
 
 
 
